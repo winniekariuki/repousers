@@ -34,3 +34,11 @@ class User:
 
     def save(self):
         pass
+  class Comment:
+    def __init__(self, data={}):
+        self.answer_id = data.get('answer_id')
+        self.question_id = data.get('question_id')
+        self.comment_body = data.get('comment_body')
+
+    def save(self):
+        pass```
